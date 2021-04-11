@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e29fc41-9f65-4041-8fb1-d2f537c67ca0" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,10 +100,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="331" y="79" key="IDE.errors.dialog/0.0.1360.728@0.0.1360.728" timestamp="1618147022425" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1617372853493">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618149437208">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1617372853493" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618149437208" />
     <state x="542" y="246" width="412" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618149414436">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
