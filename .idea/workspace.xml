@@ -28,7 +28,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../go/go1.16.2" />
+  <component name="GOROOT" path="$USER_HOME$/go/go1.16.2" />
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -42,6 +42,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1qc8V0yhAsod4Q27XbMuwmew9XU" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,6 +79,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -93,9 +97,17 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="417" y="106" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1617370132528" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1617370147230">
+    <state x="331" y="79" key="IDE.errors.dialog" timestamp="1618147022425">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1617370147230" />
+    <state x="331" y="79" key="IDE.errors.dialog/0.0.1360.728@0.0.1360.728" timestamp="1618147022425" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1617372853493">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1617372853493" />
+    <state x="542" y="246" width="412" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618149414436">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="542" y="246" width="412" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1618149414436" />
   </component>
 </project>
