@@ -19,92 +19,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e29fc41-9f65-4041-8fb1-d2f537c67ca0" name="Default Changelist" comment="update" />
+    <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Go File" />
-      </list>
-    </option>
-  </component>
   <component name="GOROOT" path="$PROJECT_DIR$/../go/go1.16.2" />
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="ProjectId" id="1qc8V0yhAsod4Q27XbMuwmew9XU" />
-  <component name="ProjectLevelVcsManager">
-    <OptionsSetting value="false" id="Update" />
-  </component>
+  <component name="ProjectId" id="1r1mIe1vwuqeqtKCoMl3d37MlE2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Go Build.go build ginweb">
-    <configuration name="go build ginweb" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
-      <module name="ginweb" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="" />
-          <option name="buildCliOptions" value="" />
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="commandLineOptions" value="" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Docker.Dockerfile" />
-      <item itemvalue="Go Build.go build ginweb" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.Dockerfile" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,64 +65,22 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="178" key="#Docker" timestamp="1618149912731">
+    <state x="479" y="291" key="#GOROOT" timestamp="1618151911490">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="444" y="178" key="#Docker/0.0.1360.728@0.0.1360.728" timestamp="1618149912731" />
-    <state x="807" y="194" key="#Go_Modules" timestamp="1617367562868">
+    <state x="479" y="291" key="#GOROOT/0.0.1360.728@0.0.1360.728" timestamp="1618151911490" />
+    <state x="479" y="194" key="#Go_Modules" timestamp="1618151907840">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="807" y="194" key="#Go_Modules/0.0.1360.728@0.0.1360.728" timestamp="1617367562868" />
-    <state x="143" y="5" width="1073" height="723" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618150264288">
+    <state x="479" y="194" key="#Go_Modules/0.0.1360.728@0.0.1360.728" timestamp="1618151907840" />
+    <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618151968185">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="143" y="5" width="1073" height="723" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1618150264288" />
-    <state x="417" y="106" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618150249375">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="417" y="106" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1618150249375" />
-    <state x="467" y="116" key="FileChooserDialogImpl" timestamp="1618149775824">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="467" y="116" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1618149775824" />
-    <state width="1312" height="167" key="GridCell.Tab.0.bottom" timestamp="1618150304226">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1618150304226" />
-    <state width="1312" height="167" key="GridCell.Tab.0.center" timestamp="1618150304226">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1618150304226" />
-    <state width="1312" height="167" key="GridCell.Tab.0.left" timestamp="1618150304225">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1618150304225" />
-    <state width="1312" height="167" key="GridCell.Tab.0.right" timestamp="1618150304226">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1618150304226" />
-    <state x="331" y="79" key="IDE.errors.dialog" timestamp="1618147022425">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="331" y="79" key="IDE.errors.dialog/0.0.1360.728@0.0.1360.728" timestamp="1618147022425" />
-    <state x="173" y="0" key="SettingsEditor" timestamp="1618149856711">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="173" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1618149856711" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618150670078">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618150670078" />
-    <state x="542" y="246" width="412" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618149414436">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="542" y="246" width="412" height="184" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1618149414436" />
+    <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1618151968185" />
   </component>
 </project>
