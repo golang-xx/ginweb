@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +83,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1618151968185" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618152003276">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618152099844">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618152003276" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618152099844" />
   </component>
 </project>
