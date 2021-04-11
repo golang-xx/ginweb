@@ -30,5 +30,5 @@ func (this *UserController) Router() {
 func main() {
 	r := gin.Default()
 	NewUserController(r).Router()
-	r.Run(":8093")
+	r.Run(":8092")
 }
