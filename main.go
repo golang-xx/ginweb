@@ -17,7 +17,7 @@ func NewUserController(e *gin.Engine) *UserController {
 func (this *UserController) GetUser() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
-			"data": "hello world",
+			"data": "hello world2",
 		})
 	}
 }
