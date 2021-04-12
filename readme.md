@@ -22,9 +22,10 @@ docker run -d -p 8092:8092 ginweb02:v1.0.0
 
 ## jenkins
 ```
-docker rm -f ginweb02
-
+ls go.mod || go mod init ginweb02
+ls go.sum || go mod tidy
 docker build -t ginweb02:v1.0.0 . 
+docker rm -f ginweb02 || echo '不存在'
 docker run -d --name ginweb02 -p 8092:8092 ginweb02:v1.0.0 
 ```
 
