@@ -1,16 +1,16 @@
 package Controller
 
 import (
+	"ginweb02/Server"
 	"github.com/gin-gonic/gin"
 )
 
 type UserController struct {
-	*gin.Engine
 }
 
 // 这里是构造函数
-func NewUserController(e *gin.Engine) *UserController {
-	return &UserController{e}
+func NewUserController() *UserController {
+	return &UserController{}
 }
 
 // 这里是业务方法
@@ -23,6 +23,6 @@ func (this *UserController) GetUser() gin.HandlerFunc {
 }
 
 // 这里是处理路由的地儿
-func (this *UserController) Router() {
-	this.Handle("GET", "/", this.GetUser())
+func (this *UserController) Router(server *Server.Server) {
+	server.Handle("GET", "/", this.GetUser())
 }

@@ -1,12 +1,13 @@
 package main
 
 import (
-	"ginweb02/Controller"
-	"github.com/gin-gonic/gin"
+	. "ginweb02/Controller"
+	"ginweb02/Server"
 )
 
 func main() {
-	r := gin.Default()
-	Controller.NewUserController(r).Router()
-	r.Run(":8092")
+	Server.
+		Init().
+		Route(NewUserController()).
+		Listen()
 }
