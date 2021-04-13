@@ -27,7 +27,7 @@ func Init() *Server {
 
 // 监听函数，更好的做法是这里的端口应该放到配置文件
 func (this *Server) Listen() {
-	this.Run(":8093")
+	this.Run(":8092")
 }
 
 // 这里是路由的关键代码，这里会挂载路由
