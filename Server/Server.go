@@ -38,3 +38,11 @@ func (this *Server) Route(controllers ...IController) *Server {
 	}
 	return this
 }
+
+func (this *Server) GroupRouter(group string, controllers ...IController) *Server {
+	this.g = this.Group(group)
+	for _, c := range controllers {
+		c.Router(this)
+	}
+	return this
+}

@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/Server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,22 @@
       <recent name="$PROJECT_DIR$/Server" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ginweb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="ginweb02" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -108,9 +126,25 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1618151968185" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618323130204">
+    <state width="314" height="166" key="GridCell.Tab.0.bottom" timestamp="1618323258807">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618323130204" />
+    <state width="314" height="166" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1618323258807" />
+    <state width="314" height="166" key="GridCell.Tab.0.center" timestamp="1618323258807">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="314" height="166" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1618323258807" />
+    <state width="314" height="166" key="GridCell.Tab.0.left" timestamp="1618323258807">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="314" height="166" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1618323258807" />
+    <state width="314" height="166" key="GridCell.Tab.0.right" timestamp="1618323258807">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="314" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1618323258807" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618323200353">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618323200353" />
   </component>
 </project>
