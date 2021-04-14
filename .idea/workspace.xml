@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="group router" />
+    <option name="LAST_COMMIT_MESSAGE" value="group router" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -142,9 +141,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="314" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1618323258807" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618323200353">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618411611205">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618323200353" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618411611205" />
   </component>
 </project>
