@@ -1,7 +1,6 @@
 package Controller
 
 import (
-	"ginweb02/Server"
 	"github.com/gin-gonic/gin"
 )
 
@@ -23,6 +22,6 @@ func (this *UserController) GetUser() gin.HandlerFunc {
 }
 
 // 这里是处理路由的地儿
-func (this *UserController) Router(server *Server.Server) {
-	server.G.Handle("GET", "/", this.GetUser())
+func (this *UserController) RouterGroup(g *gin.RouterGroup) {
+	g.Handle("GET", "/", this.GetUser())
 }

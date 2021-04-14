@@ -10,5 +10,7 @@ func main() {
 		Init().
 		Route(NewUserController()).
 		GroupRouter("v1", NewUserController()).
+		GroupRouter("v2", NewUserController()).
+		GroupRouter("v3", NewUserController()).
 		Listen()
 }

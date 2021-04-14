@@ -7,14 +7,15 @@ import (
 // 这里是定义一个接口，解决上述弊端的规范性
 type IController interface {
 	// 这个传参就是脚手架主程
-	Router(server *Server)
+	//Router(server *Server)
+	RouterGroup(g *gin.RouterGroup)
 }
 
 // 定义一个脚手架
 type Server struct {
 	*gin.Engine
 	// 路由分组一会儿会用到
-	G *gin.RouterGroup
+	g *gin.RouterGroup
 }
 
 // 初始化函数
@@ -32,18 +33,18 @@ func (this *Server) Listen() {
 
 // 这里是路由的关键代码，这里会挂载路由
 func (this *Server) Route(controllers ...IController) *Server {
-	this.G = this.Group("/")
+	this.g = this.Group("/")
 	// 遍历所有的控制层，这里使用接口，就是为了将Router实例化
 	for _, c := range controllers {
-		c.Router(this)
+		c.RouterGroup(this.g)
 	}
 	return this
 }
 
 func (this *Server) GroupRouter(group string, controllers ...IController) *Server {
-	this.G = this.Group(group)
+	this.g = this.Group(group)
 	for _, c := range controllers {
-		c.Router(this)
+		c.RouterGroup(this.g)
 	}
 	return this
 }
