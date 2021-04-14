@@ -24,5 +24,5 @@ func (this *UserController) GetUser() gin.HandlerFunc {
 
 // 这里是处理路由的地儿
 func (this *UserController) Router(server *Server.Server) {
-	server.Handle("GET", "/", this.GetUser())
+	server.G.Handle("GET", "/", this.GetUser())
 }

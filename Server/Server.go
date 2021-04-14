@@ -14,7 +14,7 @@ type IController interface {
 type Server struct {
 	*gin.Engine
 	// 路由分组一会儿会用到
-	g *gin.RouterGroup
+	G *gin.RouterGroup
 }
 
 // 初始化函数
@@ -32,6 +32,7 @@ func (this *Server) Listen() {
 
 // 这里是路由的关键代码，这里会挂载路由
 func (this *Server) Route(controllers ...IController) *Server {
+	this.G = this.Group("/")
 	// 遍历所有的控制层，这里使用接口，就是为了将Router实例化
 	for _, c := range controllers {
 		c.Router(this)
@@ -40,7 +41,7 @@ func (this *Server) Route(controllers ...IController) *Server {
 }
 
 func (this *Server) GroupRouter(group string, controllers ...IController) *Server {
-	this.g = this.Group(group)
+	this.G = this.Group(group)
 	for _, c := range controllers {
 		c.Router(this)
 	}

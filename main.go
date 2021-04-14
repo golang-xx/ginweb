@@ -8,7 +8,7 @@ import (
 func main() {
 	Server.
 		Init().
-		//Route(NewUserController()).
+		Route(NewUserController()).
 		GroupRouter("v1", NewUserController()).
 		Listen()
 }
