@@ -18,5 +18,5 @@ COPY --from=builder /build/ginweb02 /app/
 COPY --from=builder /etc/passwd /etc/passwd
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
-USER app-runner
+USER root
 ENTRYPOINT ["/app/ginweb02"]
