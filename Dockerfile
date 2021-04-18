@@ -6,7 +6,6 @@ WORKDIR /build
 ENV GOPROXY https://goproxy.cn
 COPY go.mod .
 COPY go.sum .
-ADD  etc/ ./etc/
 RUN go mod download
 
 COPY . .
@@ -16,6 +15,7 @@ FROM scratch
 
 WORKDIR /app
 COPY --from=builder /build/ginweb02 /app/
+COPY --from=builder /build/etc/ /app/etc/
 COPY --from=builder /etc/passwd /etc/passwd
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
