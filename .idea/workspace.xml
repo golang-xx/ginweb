@@ -32,8 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/login.api" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -137,6 +141,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="759" y="255" key="#Custom_Plugin_Repositories" timestamp="1618744967280">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="759" y="255" key="#Custom_Plugin_Repositories/0.0.1360.728@0.0.1360.728" timestamp="1618744967280" />
     <state x="479" y="291" key="#GOROOT" timestamp="1618151911490">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -149,10 +157,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="279" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1618237794606" />
-    <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618151968185">
+    <state x="429" y="158" width="557" height="411" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618742969433">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1618151968185" />
+    <state x="429" y="158" width="557" height="411" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1618742969433" />
     <state x="100" y="100" width="1160" height="528" key="DiffContextDialog" timestamp="1618717726058">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -173,13 +181,21 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="314" height="166" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1618323258807" />
+    <state x="346" y="0" key="SettingsEditor" timestamp="1618746218323">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="346" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1618746218323" />
     <state x="100" y="100" width="1160" height="528" key="ShowDiffWithBranchDialog" timestamp="1618716899405">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="100" y="100" width="1160" height="528" key="ShowDiffWithBranchDialog/0.0.1360.728@0.0.1360.728" timestamp="1618716899405" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618717995147">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618718069079">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618717995147" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618718069079" />
+    <state x="691" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618747054685">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="691" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1618747054685" />
   </component>
 </project>
