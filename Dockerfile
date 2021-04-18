@@ -1,7 +1,7 @@
 FROM golang:1.14.8-stretch AS builder
 
 WORKDIR /build
-RUN adduser -u 10001 -D app-runner
+#RUN adduser -u 10001 -D app-runner
 
 ENV GOPROXY https://goproxy.cn
 COPY go.mod .
