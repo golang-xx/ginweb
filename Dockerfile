@@ -11,11 +11,8 @@ RUN go mod download
 COPY . .
 RUN CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -o ginweb02 .
 
-FROM stretch AS final
-
 WORKDIR /app
 COPY --from=builder /build/ginweb02 /app/
-#COPY --from=builder /build/config /app/config
 COPY --from=builder /etc/passwd /etc/passwd
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
