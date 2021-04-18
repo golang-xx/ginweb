@@ -44,4 +44,9 @@ service open-api {
 	)
 	post /open/verify(VerifyReq) returns(VerifyResp)
 	
+	@server(
+		handler: helloWord
+		folder: open
+	)
+	get /open/hello()
 }

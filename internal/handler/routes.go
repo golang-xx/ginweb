@@ -27,6 +27,11 @@ func RegisterHandlers(engine *rest.Server, serverCtx *svc.ServiceContext) {
 				Path:    "/open/verify",
 				Handler: verifyHandler(serverCtx),
 			},
+			{
+				Method:  http.MethodGet,
+				Path:    "/open/hello",
+				Handler: helloWordHandler(serverCtx),
+			},
 		},
 	)
 }
