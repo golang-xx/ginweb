@@ -32,6 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,10 +153,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="429" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1618151968185" />
-    <state x="100" y="100" width="1160" height="528" key="DiffContextDialog" timestamp="1618716899405">
+    <state x="100" y="100" width="1160" height="528" key="DiffContextDialog" timestamp="1618717726058">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="100" y="100" width="1160" height="528" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1618716899405" />
+    <state x="100" y="100" width="1160" height="528" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1618717726058" />
     <state width="314" height="166" key="GridCell.Tab.0.bottom" timestamp="1618323258807">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -176,9 +177,9 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="100" y="100" width="1160" height="528" key="ShowDiffWithBranchDialog/0.0.1360.728@0.0.1360.728" timestamp="1618716899405" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618716977221">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618717292367">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618716977221" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618717292367" />
   </component>
 </project>

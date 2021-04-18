@@ -11,6 +11,8 @@ RUN go mod download
 COPY . .
 RUN CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -o ginweb02 .
 
+FROM scratch
+
 WORKDIR /app
 COPY --from=builder /build/ginweb02 /app/
 COPY --from=builder /etc/passwd /etc/passwd
