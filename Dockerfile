@@ -11,7 +11,7 @@ RUN go mod download
 COPY . .
 RUN CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -o ginweb02 .
 
-FROM alpine:3.10 AS final
+FROM stretch AS final
 
 WORKDIR /app
 COPY --from=builder /build/ginweb02 /app/
