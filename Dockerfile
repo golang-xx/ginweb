@@ -6,6 +6,7 @@ WORKDIR /build
 ENV GOPROXY https://goproxy.cn
 COPY go.mod .
 COPY go.sum .
+ADD  etc/ ./etc/
 RUN go mod download
 
 COPY . .
