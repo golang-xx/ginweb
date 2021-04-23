@@ -9,7 +9,7 @@ import (
 type User struct {
 	gorm.Model
 	Mobile string `gorm:"index:mobile;type:varchar(13)"`
-	Passwd string `gorm:"type:vachar(64)"`
+	Passwd string `gorm:"type:varchar(64)"`
 }
 
 func (u *User)BeforeCreate(db *gorm.DB) error  {
