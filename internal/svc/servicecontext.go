@@ -1,6 +1,7 @@
 package svc
 
 import (
+	"fmt"
 	"ginweb02/internal/config"
 	"ginweb02/internal/models"
 
@@ -27,8 +28,10 @@ func NewServiceContext(c config.Config) *ServiceContext {
 		panic(err)
 	}
 
-	db.AutoMigrate(&models.User{})
-
+	err2 := db.AutoMigrate(&models.User{})
+	if err2 != nil {
+		fmt.Println(err2)
+	}
 	return &ServiceContext{
 		Config: c,
 		DbEngin: db,
