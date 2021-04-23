@@ -9,6 +9,12 @@ type (
 		Id    uint   `json:"id"`
 		Token string `json:"token"`
 	}
+
+	UserUpdateReq {
+		Id     uint   `form:"id"`
+		Mobile string `form:"mobile,optional"`
+	}
+
 	//图片验证码支持
 	VerifyReq {
 		Ticket string `json:"ticket"`
@@ -41,6 +47,12 @@ service open-api {
 		folder: open
 	)
 	post /open/authorization(UserOptReq) returns(UserOptResp)
+	
+	@server (
+		handler: edituserHandler
+		folder: user
+	)
+	post /user/update(UserUpdateReq) returns(UserOptResp)
 	
 	@server(
 		handler: verifyHandler

@@ -12,6 +12,11 @@ type UserOptResp struct {
 	Token string `json:"token"`
 }
 
+type UserUpdateReq struct {
+	Id     uint   `form:"id"`
+	Mobile string `form:"mobile,optional"`
+}
+
 type VerifyReq struct {
 	Ticket string `json:"ticket"`
 }

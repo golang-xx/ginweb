@@ -24,6 +24,11 @@ func RegisterHandlers(engine *rest.Server, serverCtx *svc.ServiceContext) {
 			},
 			{
 				Method:  http.MethodPost,
+				Path:    "/user/update",
+				Handler: edituserHandler(serverCtx),
+			},
+			{
+				Method:  http.MethodPost,
 				Path:    "/open/verify",
 				Handler: verifyHandler(serverCtx),
 			},

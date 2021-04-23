@@ -6,20 +6,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origingithub" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -31,7 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="add gorm">
-      <change beforePath="$PROJECT_DIR$/internal/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/edituserhandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/logic/edituserlogic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/handler/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/handler/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/types/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.api" beforeDir="false" afterPath="$PROJECT_DIR$/login.api" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Api Template" />
       </list>
     </option>
   </component>
@@ -52,6 +44,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,6 +66,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultApiTemplateProperty" value="Api Template" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -198,10 +196,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="100" y="100" width="1160" height="528" key="ShowDiffWithBranchDialog/0.0.1360.728@0.0.1360.728" timestamp="1618716899405" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1619183325987">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1619184755117">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1619183325987" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1619184755117" />
     <state x="691" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618747054685">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
