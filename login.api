@@ -17,6 +17,10 @@ type (
 	VerifyResp {
 		Data string `json:"data"`
 	}
+
+	HelloResp {
+		Result string `json:"result"`
+	}
 )
 service open-api {
 	@doc(
@@ -48,5 +52,5 @@ service open-api {
 		handler: helloWord
 		folder: open
 	)
-	get /open/hello()
+	get /open/hello() returns(HelloResp)
 }

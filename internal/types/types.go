@@ -19,3 +19,7 @@ type VerifyReq struct {
 type VerifyResp struct {
 	Data string `json:"data"`
 }
+
+type HelloResp struct {
+	Result string `json:"result"`
+}

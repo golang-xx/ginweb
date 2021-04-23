@@ -32,6 +32,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1c00d051-481b-40ff-98a7-1212222c8c68" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/types/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.api" beforeDir="false" afterPath="$PROJECT_DIR$/login.api" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <recent name="$PROJECT_DIR$/Server" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build open.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ginweb" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,8 +96,18 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build open.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ginweb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/open.go" />
+      <package value="ginweb02" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build open.go" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -163,22 +175,22 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="100" y="100" width="1160" height="528" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1618717726058" />
-    <state width="1312" height="167" key="GridCell.Tab.0.bottom" timestamp="1618750748675">
+    <state width="1312" height="167" key="GridCell.Tab.0.bottom" timestamp="1618751314479">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1618750748675" />
-    <state width="1312" height="167" key="GridCell.Tab.0.center" timestamp="1618750748675">
+    <state width="1312" height="167" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1618751314479" />
+    <state width="1312" height="167" key="GridCell.Tab.0.center" timestamp="1618751314479">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1618750748675" />
-    <state width="1312" height="167" key="GridCell.Tab.0.left" timestamp="1618750748675">
+    <state width="1312" height="167" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1618751314479" />
+    <state width="1312" height="167" key="GridCell.Tab.0.left" timestamp="1618751314478">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1618750748675" />
-    <state width="1312" height="167" key="GridCell.Tab.0.right" timestamp="1618750748675">
+    <state width="1312" height="167" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1618751314478" />
+    <state width="1312" height="167" key="GridCell.Tab.0.right" timestamp="1618751314479">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1312" height="167" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1618750748675" />
+    <state width="1312" height="167" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1618751314479" />
     <state x="346" y="0" key="SettingsEditor" timestamp="1618746218323">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -187,10 +199,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="100" y="100" width="1160" height="528" key="ShowDiffWithBranchDialog/0.0.1360.728@0.0.1360.728" timestamp="1618716899405" />
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618750541643">
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618750877031">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618750541643" />
+    <state x="279" y="94" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1618750877031" />
     <state x="691" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618747054685">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
