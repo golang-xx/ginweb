@@ -1,4 +1,4 @@
 Name: open-api
 Host: 0.0.0.0
 Port: 8092
-DataSourceName: root:123456@(127.0.0.1:3306)/gozero?charset=utf8
+DataSourceName: root:123456@(192.168.0.109:3306)/gozero?charset=utf8
