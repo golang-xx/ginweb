@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"fmt"
 	"net/http"
 
 	"ginweb02/internal/logic"
@@ -11,6 +12,7 @@ import (
 )
 
 func edituserHandler(ctx *svc.ServiceContext) http.HandlerFunc {
+	fmt.Println("1111")
 	return func(w http.ResponseWriter, r *http.Request) {
 		var req types.UserUpdateReq
 		if err := httpx.Parse(r, &req); err != nil {
