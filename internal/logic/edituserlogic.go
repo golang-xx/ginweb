@@ -27,5 +27,7 @@ func NewEdituserLogic(ctx context.Context, svcCtx *svc.ServiceContext) EdituserL
 func (l *EdituserLogic) Edituser(req types.UserUpdateReq) (*types.UserOptResp, error) {
 	// todo: add your logic here and delete this line
 	fmt.Println("edit user")
-	return &types.UserOptResp{}, nil
+	return &types.UserOptResp{
+		Id: 1,Token: "333",
+	}, nil
 }
