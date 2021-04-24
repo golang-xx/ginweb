@@ -12,8 +12,8 @@ import (
 )
 
 func edituserHandler(ctx *svc.ServiceContext) http.HandlerFunc {
-	fmt.Println("1111")
 	return func(w http.ResponseWriter, r *http.Request) {
+		fmt.Println("1111")
 		var req types.UserUpdateReq
 		if err := httpx.Parse(r, &req); err != nil {
 			httpx.Error(w, err)
