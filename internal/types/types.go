@@ -13,8 +13,8 @@ type UserOptResp struct {
 }
 
 type UserUpdateReq struct {
-	Id     uint   `form:"id"`
-	Mobile string `form:"mobile,optional"`
+	Id     uint   `json:"id"`
+	Mobile string `json:"mobile,optional"`
 }
 
 type VerifyReq struct {

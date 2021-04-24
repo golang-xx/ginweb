@@ -11,8 +11,8 @@ type (
 	}
 
 	UserUpdateReq {
-		Id     uint   `form:"id"`
-		Mobile string `form:"mobile,optional"`
+		Id     uint   `json:"id"`
+		Mobile string `json:"mobile,optional"`
 	}
 
 	//图片验证码支持
