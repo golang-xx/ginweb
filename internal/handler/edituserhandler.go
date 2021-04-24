@@ -16,13 +16,16 @@ func edituserHandler(ctx *svc.ServiceContext) http.HandlerFunc {
 		fmt.Println("1111")
 		var req types.UserUpdateReq
 		if err := httpx.Parse(r, &req); err != nil {
+			fmt.Println("222",err)
 			httpx.Error(w, err)
 			return
 		}
-
+		fmt.Println("333")
 		l := logic.NewEdituserLogic(r.Context(), ctx)
+		fmt.Println("444")
 		resp, err := l.Edituser(req)
 		if err != nil {
+			fmt.Println("555",err)
 			httpx.Error(w, err)
 		} else {
 			httpx.OkJson(w, resp)
