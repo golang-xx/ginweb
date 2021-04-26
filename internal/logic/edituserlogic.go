@@ -29,6 +29,6 @@ func (l *EdituserLogic) Edituser(req types.UserUpdateReq) (*types.UserOptResp, e
 	fmt.Println("edit user")
 	l.svcCtx.DbEngin.Updates(req)
 	return &types.UserOptResp{
-		Id: 1,Token: "333",
+		Id: req.Id,Token: "333",
 	}, nil
 }
